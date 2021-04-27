@@ -19,7 +19,10 @@ namespace poo1
 
         static void Resultado(int n1, int n2)//RESULTADO(INT N1, INT N2) = FIRMA
         {
-
+            int total;
+            total = n1 + n2;
+            Console.WriteLine("la suma es" + total);
+            Console.ReadLine();
         }
     }
 }
